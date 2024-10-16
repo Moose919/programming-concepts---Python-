@@ -8,3 +8,5 @@ pi = math.pi
 print("the value of pie is", pi)
 #calculate the area of circle 
 area = radius*radius*pi
+#print the result 
+print("the area of the circle is=", area)

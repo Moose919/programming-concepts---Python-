@@ -1,0 +1,28 @@
+# Ignore all Word documents in the Week01 directory
+Week01/*.doc
+Week01/*.docx
+
+# Uncomment and extend this as necessary for more weeks
+
+# Week02/*.doc
+# Week02/*.docx
+# Week03/*.doc
+# Week03/*.docx
+# Week04/*.doc
+# Week04/*.docx
+# Week05/*.doc
+# Week05/*.docx
+# Week06/*.doc
+# Week06/*.docx
+# Week07/*.doc
+# Week07/*.docx
+# Week08/*.doc
+# Week08/*.docx
+# Week09/*.doc
+# Week09/*.docx
+# Week10/*.doc
+# Week10/*.docx
+# Week11/*.doc
+# Week11/*.docx
+# Week12/*.doc
+# Week12/*.docx

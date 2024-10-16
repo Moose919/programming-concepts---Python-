@@ -1,0 +1,5 @@
+These are the commands to troubleshoot the following
+"Git no email was given and auto detection is disabled"
+
+git config --global user.name moose919
+git config --global user.email marcus.wreford91@gmail.com

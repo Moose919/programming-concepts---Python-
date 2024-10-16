@@ -1,0 +1,3 @@
+# Ignore all Word documents in the Week01 directory
+Week01/*.doc
+Week01/*.docx

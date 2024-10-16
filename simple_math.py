@@ -1,6 +1,6 @@
-pounds = 24
+pounds = float(24)
 print(pounds)
-pounds = 10
+pounds = float(10)
 print(pounds)
 pounds = pounds + 30
 print("You have £: " + str(pounds))

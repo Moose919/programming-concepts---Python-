@@ -1,13 +1,29 @@
-#import 's the turtle screen 
 import turtle
-window = turtle.Screen() 
-window.setup(0.5, 0.75) 
-window.bgcolor(1, 1, 0) 
-#Title of the output window
+
+window = turtle.Screen()
+window.setup(0.5, 0.75)
+window.bgcolor(1, 1, 0)
 window.title("Activity Program")
-#create turtle 
-dave = turtle.Turtle() #Pointer/pen
-dave.color(0, 10, 0) #Pointer/pen color
-dave.shape("turtle") #Pointer/pen shape
-dave.goto(0,0) #Pointer movement
-turtle.done() #Render the screen
+
+dave = turtle.Turtle()
+dave.color("#0000FF")
+dave.shape("turtle")
+dave.goto(0, 0)
+dave.turtlesize(4)
+
+# Move to the 3rd quadrant
+dave.penup()
+dave.right(90)
+dave.forward(180)
+dave.right(90)  
+dave.forward(180)
+dave.pendown()
+
+#move up to first qaudrent 
+dave.right(90)
+dave.forward(400)
+dave.right(90)
+dave.forward(400)
+
+
+turtle.done()
